@@ -1,0 +1,54 @@
+<link href="main.css" rel="stylesheet">
+
+<h2>Camping at Elephant Mountain</h2>
+
+<form>
+  <div>
+    <label for="arrival-date">Arrival date*</label>
+    <input type="date" id="arrival-date" name="arrival-date" required>
+  </div>
+
+  <div>
+    <label for="departure-date">Departure date*</label>
+    <input type="date" id="departure-date" name="departure-date" required>
+  </div>
+
+  <div>
+    <label for="party-size">Party size*</label>
+    <input type="number" min="1" max="50" value="2" id="party-size" name="party-size" required>
+  </div>
+
+  <div>
+    <label for="pass-number">Pass number</label>
+    <input type="text" placeholder="optional" size="8" id="pass-number" name="pass-number">
+  </div>
+
+  <div>
+    <p>Accommodation type*</p>
+    <label>
+      <input type="radio" id="accommodation-campground" name="accommodation" value="campground" checked>
+      Campground
+    </label>
+
+    <label>
+      <input type="radio" id="accommodation-caravan" name="accommodation" value="caravan">
+      Caravan park
+    </label>
+
+    <label>
+      <input type="radio" id="accommodation-glamping" name="accommodation" value="glamping">
+      Glamping tent
+    </label>
+  </div>
+
+  <div>
+    <label>
+      <input type="checkbox" id="accessible-toilets" name="accessible-toilets">
+      Do you need accessible toilets?
+    </label>
+  </div>
+
+  <div>
+    <input class="button" type="submit" value="Find camping">
+  </div>
+</form>

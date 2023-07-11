@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectResources">
+    <resource url="https://fonts.googleapis.com/css?family=Nabla&amp;family=Bungee+Spice" location="$PROJECT_DIR$" />
+    <resource url="https://fonts.googleapis.com/css?family=Nabla&amp;family=Nabla" location="$PROJECT_DIR$" />
+  </component>
+</project>

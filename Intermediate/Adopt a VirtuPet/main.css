@@ -1,0 +1,52 @@
+body {
+    font-size: 24px;
+    width: 500px;
+    margin: 60px auto;
+}
+
+h1, h2, p { text-align: center; }
+h2 { margin-top: 60px; }
+div { margin: 20px 0; }
+
+img {
+    display: block;
+    margin: auto;
+}
+
+input {
+    padding: 20px;
+    width: 460px;
+    border: 2px solid lightgrey;
+    border-radius: 10px;
+}
+
+.button {
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px 40px;
+    background: tomato;
+    color: white;
+    border-radius: 40px;
+}
+
+.button:hover {
+    background: orangered;
+    color: white;
+}
+
+.back {
+    float: left;
+    background: white;
+    color: orangered;
+    border: 3px solid orangered;
+}
+
+.back:hover {
+    background: #f1f1f1;
+    color: orangered;
+}
+
+.next {
+    float: right;
+}

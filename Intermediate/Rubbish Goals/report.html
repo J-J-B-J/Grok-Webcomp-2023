@@ -1,0 +1,44 @@
+<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+
+<nav>
+    <a class="nav-link" href="index.html"><span class="fa fa-wrench"></span> Repair or replace bins</a>
+    <a class="nav-link active" href="report.html"><span class="fa fa-exclamation"></span> Report illegal dumping</a>
+    <a class="nav-link" href="book.html"><span class="fa fa-couch"></span> Hard waste collection</a>
+</nav>
+
+<form>
+    <h2>Report illegal dumping location</h2>
+
+    <div>
+        <label for="address">Street Address*</label>
+        <input type="text" id="address" name="address" size=40 required>
+    </div>
+    <div>
+        <label for="suburb">Suburb*</label>
+        <input type="text" id="suburb" name="suburb" size=30 required>
+    </div>
+    <div>
+        <label for="postcode">Postcode*</label>
+        <input type="text" id="postcode" name="postcode" size=5 required>
+    </div>
+
+    <div>
+        <label for="date">Date observed*</label>
+        <input type="date" id="date" name="date">
+    </div>
+
+    <div>
+        <label for="details">Details (optional)</label>
+        <input type="text" id="details" name="details" size=40 placeholder="Provide any extra details here">
+    </div>
+    <div>
+        <label>
+            <input type="checkbox" id="followup" name="followup">
+            I want to be contacted about this enquiry.
+        </label>
+    </div>
+    <div>
+        <input class="button" type="submit" value="Submit">
+    </div>
+</form>

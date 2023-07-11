@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+    background-color: papayawhip;
+}
+
+h1 {
+    font-size: 96px;
+    line-height: 1;
+    color: teal;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 36px;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+span {
+    font-size: 48px;
+    line-height: 2;
+    color: firebrick;
+}

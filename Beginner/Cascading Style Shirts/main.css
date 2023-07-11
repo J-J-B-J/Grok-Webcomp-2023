@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono');
+@import url('https://fonts.googleapis.com/css?family=Bungee+Outline');
+
+body {
+    font-family: 'Share Tech Mono';
+    text-align: center;
+}
+
+div {
+    background-color: rgb(16, 70, 110);
+    color: white;
+    width: 70%;
+    padding: 50px 0;
+}
+
+h1 {
+    font-size: 300px;
+    font-family: "Bungee Outline";
+    line-height: 1;
+}
+
+h2 {
+    font-size: 100px;
+    padding-bottom: 85px;
+}
+
+h3 {
+    font-size: 60px;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}

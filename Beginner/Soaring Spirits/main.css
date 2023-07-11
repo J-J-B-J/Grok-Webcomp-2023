@@ -1,0 +1,30 @@
+.header {
+    background-color: #7fa99b;
+    color: #F6E79C;
+}
+
+.navigation {
+    background-color: #f79c1d;
+    color: #7fa99b;
+}
+
+.main-content {
+    color: #9C2C2C;
+}
+
+.popular {
+    background-color: #F6E79C;
+}
+
+img.featured {
+    width: 100%;
+}
+
+img.thumbnail {
+    width: 20%;
+}
+
+p.quote {
+    font-size: 50px;
+    padding: 40px;
+}

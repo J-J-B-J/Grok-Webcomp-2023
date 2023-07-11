@@ -1,0 +1,40 @@
+body {
+    width: 460px;
+    margin: auto;
+    background-image: url("pizza-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 5px 20px;
+    margin: 25px 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+h3 {
+    font-style: italic;
+    font-weight: normal;
+}
+
+p {
+    text-align: right;
+}
+
+span {
+    font-size: 28px;
+}
+
+span.fa-leaf {
+    font-size: 28px;
+    color: green;
+}

@@ -1,0 +1,17 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
+body {
+    background-image: url("postcard.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 40px;
+}
+
+h1 {
+    font-family: "Pacifico";
+    font-size: 72px;
+    font-weight: normal;
+    text-align: center;
+    padding-bottom: 400px;
+}

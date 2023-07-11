@@ -1,0 +1,21 @@
+img {
+    width: 100%;
+}
+
+body {
+    background-color: rgb(215, 196, 192);
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    line-height: 32px;
+    font-size: 25px;
+}
+
+span {
+    font-style: italic;
+}

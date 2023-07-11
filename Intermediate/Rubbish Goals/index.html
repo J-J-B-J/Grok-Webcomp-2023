@@ -1,0 +1,72 @@
+<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+
+<nav>
+  <a class="nav-link active" href="index.html"><span class="fa fa-wrench"></span> Repair or replace bins</a>
+  <a class="nav-link" href="report.html"><span class="fa fa-exclamation"></span> Report illegal dumping</a>
+  <a class="nav-link" href="book.html"><span class="fa fa-couch"></span> Hard waste collection</a>
+</nav>
+
+<form>
+  <h2>Request a bin repair or replacement</h2>
+
+  <div>
+    <p>Nature of request*</p>
+    <label>
+      <input type="radio" id="request-lid" name="request" value="lid">
+      Missing / damaged lid (repair)
+    </label>
+    <label>
+      <input type="radio" id="request-wheels" name="request" value="wheel">
+      Missing / damaged wheels (repair)
+    </label>
+    <label>
+      <input type="radio" id="request-bin" name="request" value="bin">
+      Missing / damaged bin body (replace)
+    </label>
+  </div>
+
+  <div>
+    <p>Type of bin*</p>
+    <label>
+      <input type="radio" id="bin-rubbish" name="bin" value="rubbish">
+      General rubbish waste (red or dark green lid)
+    </label>
+    <label>
+      <input type="radio" id="bin-recycling" name="bin" value="recycling">
+      Recycling (yellow lid)
+    </label>
+    <label>
+      <input type="radio" id="bin-garden" name="bin" value="garden">
+      Garden green waste (light green lid)
+    </label>
+  </div>
+
+  <div>
+    <p>Size of bin*</p>
+    <label>
+      <input type="radio" id="size-120" name="size" value="120">
+      120L (small wheelie bin)
+    </label>
+    <label>
+      <input type="radio" id="size-240" name="size" value="240">
+      240L (large wheelie bin)
+    </label>
+    <label>
+      <input type="radio" id="size-660" name="size" value="660">
+      660L (small skip bin)
+    </label>
+    <label>
+      <input type="radio" id="size-1100" name="size" value="1100">
+      1100L (large skip bin)
+    </label>
+  </div>
+
+  <div>
+    <label for="details">Special instructions (optional)</label>
+    <input type="text" id="details" name="details" size=40 placeholder="e.g. property hard to find, preferred times">
+  </div>
+  <div>
+    <input class="button" type="submit" value="Submit">
+  </div>
+</form>

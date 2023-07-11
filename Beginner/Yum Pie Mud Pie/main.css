@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
+
+/* This bit you can't change. */
+body {
+    width: 605px;
+    margin: 20px;
+    font-family: 'Shadows Into Light';
+    color: rgb(80, 80, 80);
+}
+
+h1, h2, h3 {
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+}
+
+/* Override heading and span styles here. */
+
+div {
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+}
+
+h1 {
+    font-family: "Fredericka the Great";
+    font-size: 50px;
+}
+
+h2 {
+    border-bottom: 3px solid mediumpurple;
+}
+
+h1, h3, span {
+    color: mediumpurple;
+}

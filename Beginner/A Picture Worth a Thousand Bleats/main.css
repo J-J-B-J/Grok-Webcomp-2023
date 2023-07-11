@@ -1,0 +1,12 @@
+img {
+    width: 700px;
+    border: 60px solid rgb(80, 70, 61);
+    border-top-color: rgb(122, 117, 108);
+    border-bottom-color: rgb(42, 36, 30);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+body {
+    text-align: center;
+}

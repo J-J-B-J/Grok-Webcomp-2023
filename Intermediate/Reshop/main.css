@@ -1,0 +1,107 @@
+/*
+ * This style sheet is for the home (starting) page.
+ * It's included into index.html.
+ */
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script');
+
+body {
+    font-size: 20px;
+    background-color: #EAECE2;
+}
+
+/** Nav bar styles */
+
+nav {
+    padding: 10px;
+}
+
+.logo {
+    margin: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-link {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    color: dimgray;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: seagreen;
+    border-bottom: 4px solid seagreen;
+}
+
+/** Content styles */
+
+.content {
+    padding-top: 1px;
+    padding-left: 25px;
+    padding-bottom: 5px;
+    margin: 8% auto;
+    width: 400px;
+    height: auto;
+    background-color: white;
+    border-radius: 30px;
+}
+
+input.text {
+    width: auto;
+    height: 30px;
+    font-size: 15px;
+    padding-left: 5px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 3px solid seagreen;
+    margin-bottom: 15px;
+    display: flow;
+}
+
+input.text-long {
+    width: 360px;
+    height: 150px;
+    font-size: 15px;
+    padding-left: 5px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 3px solid seagreen;
+    margin-bottom: 15px;
+    display: flow;
+}
+
+.button {
+    font-size: 15px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    background: seagreen;
+    color: white;
+    border-radius: 4px;
+    border: 2px solid seagreen;
+    margin-top: 20px;
+}
+
+.button:hover {
+    border-color: mediumseagreen;
+    background: mediumseagreen;
+    color: white;
+}
+
+.secondary {
+    color: seagreen;
+    background: none;
+}
+
+h1.largecentered {
+    font-family: "Marck Script";
+    font-size: 200px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.success_message {
+    text-align: center;
+}

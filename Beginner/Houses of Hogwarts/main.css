@@ -1,0 +1,48 @@
+body {
+    width: 300px;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: -16px;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    font-size: 48px;
+    background-color: rgb(202, 228, 218);
+    color: rgb(44, 46, 69);
+    text-align: center;
+    margin: 20px 0;
+}
+
+span {
+    display: block;
+    text-align: right;
+}
+
+a {
+    font-size: 20px;
+    text-decoration: none;
+    padding: 5px;
+    background-color: rgb(202, 228, 218);
+    color: rgb(44, 46, 69);
+    border-radius: 20px;
+    display: block;
+    text-align: center;
+}
+
+em {
+    font-size: 13px;
+    display: block;
+    width: 250px;
+    margin: 0 auto;
+}

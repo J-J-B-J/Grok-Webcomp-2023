@@ -1,0 +1,66 @@
+/*
+ * This style sheet is for the home (starting) page.
+ * It's included into index.html.
+ */
+
+body {
+    font-size: 20px;
+    background-color: #EAECE2;
+    background-image: url('green-jacket.jpg');
+    background-repeat: no-repeat;
+}
+
+/** Nav bar styles */
+
+nav {
+    padding: 10px;
+}
+
+.logo {
+    margin: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-link {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    color: dimgray;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: seagreen;
+    border-bottom: 4px solid seagreen;
+}
+
+/** Content styles */
+
+.content {
+    padding: 120px 80px;
+    width: 400px;
+}
+
+.button {
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px 40px;
+    background: seagreen;
+    color: white;
+    border-radius: 4px;
+    border: 2px solid seagreen;
+}
+
+.button:hover {
+    border-color: mediumseagreen;
+    background: mediumseagreen;
+    color: white;
+}
+
+.secondary {
+    color: seagreen;
+    background: none;
+}
